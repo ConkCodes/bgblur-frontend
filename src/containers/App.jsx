@@ -1,10 +1,15 @@
+import { Component } from 'react';
+import Landing from '../components/Landing';
 
-function App() {
-	return (
-		<h1 className="text-3xl font-bold underline">
-			Hello world!
-		</h1>
-	)
+class App extends Component {
+	constructor() {
+		super();
+	}
+	render() {
+		return (
+			<Landing/>
+		);
+	}
 }
 
 export default App
