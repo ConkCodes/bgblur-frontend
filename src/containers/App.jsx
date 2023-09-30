@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Nav from '../components/Nav';
 import Landing from '../components/Landing';
 
 class App extends Component {
@@ -7,7 +8,10 @@ class App extends Component {
 	}
 	render() {
 		return (
-			<Landing/>
+			<div>
+				<Nav/>
+				<Landing/>
+			</div>
 		);
 	}
 }
