@@ -1,7 +1,7 @@
 
 function Landing() {
   return (
-    <div className="p-4"> 
+    <div className="p-4 sm:px-16 lg:px-64"> 
       <div className="text-center flex flex-col items-center justify-evenly h-[90vh]">
         <h1 className="text-3xl sm:text-6xl font-extrabold">Blur Your Image Background!</h1>   
         <img src="src\assets\sample_image.jpg" alt="image" className="w-[750px] h-auto rounded-3xl"/>
