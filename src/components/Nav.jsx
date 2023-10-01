@@ -1,12 +1,12 @@
 
 function Nav() {
   return (
-    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-6 bg-blue-600">
+    <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-blue-600 text-sm py-6">
       <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
         <div className="flex items-center justify-between">
-          <a className="flex-none text-xl font-semibold dark:text-white" href="#">Background Blur</a>
+          <a className="flex-none text-xl font-semibold dark:text-white" href="#">Focus</a>
           <div className="sm:hidden">
-            <button type="button" className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" data-hs-collapse="#navbar-with-collapse" aria-controls="navbar-with-collapse" aria-label="Toggle navigation">
+            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
               <svg className="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
               </svg>
@@ -16,15 +16,15 @@ function Nav() {
             </button>
           </div>
         </div>
-        <div id="navbar-with-collapse" className="hidden basis-full grow sm:block">
+        <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
           <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
             <a className="font-medium text-white" href="#" aria-current="page">Landing</a>
-            <a className="font-medium text-white/70" href="#">Account</a>
-            <a className="font-medium text-white/70" href="#">Work</a>
-            <a className="font-medium text-white/70" href="#">Blog</a>
-            <p className="font-medium text-white/70">|</p>
-            <a className="font-medium text-white/70" href="#">Log in</a>
-            <a className="font-medium text-white/70" href="#">Sign up</a>
+            <a className="font-medium text-white/70 hover:text-white" href="#">Account</a>
+            <a className="font-medium text-white/70 hover:text-white" href="#">Work</a>
+            <a className="font-medium text-white/70 hover:text-white" href="#">Blog</a>
+            <p className="hidden sm:block text-white/70">|</p>
+            <a className="font-medium text-white/70 hover:text-white" href="#">Log in</a>
+            <a className="font-medium text-white/70 hover:text-white" href="#">Sign up</a>
           </div>
         </div>
       </nav>
