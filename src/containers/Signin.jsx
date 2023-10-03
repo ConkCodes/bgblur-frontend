@@ -8,7 +8,7 @@ class Signin extends Component {
 
   render() {
     return (
-      <div class="flex h-[90vh] items-center py-16">
+      <div class="flex min-h-[90vh] items-center py-16">
         <main class="w-full max-w-md mx-auto p-6">
           <div class="mt-7 bg-blue-600 border border-gray-200 rounded-xl shadow-sm dark:border-gray-700">
             <div class="p-4 sm:p-7">
