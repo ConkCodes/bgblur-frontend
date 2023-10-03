@@ -8,7 +8,7 @@ class App extends Component {
 		super();
 	}
 	render() {
-    const v = false;
+    const v = true;
     if(v) {
       return (
         <div>
