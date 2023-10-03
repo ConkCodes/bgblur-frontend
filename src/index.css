@@ -14,11 +14,15 @@
 @layer base {
 	html {
 		font-family: 'Mona Sans';
-		background-image: url('src/assets/bg.jpg');
-		background-size: cover;
 	}
 	h1 {
 		font-weight: 500;
 		font-stretch: 125%;
+	}
+}
+
+@layer utilities {
+	.vhp {
+		height: max(100%, 90vh);
 	}
 }
