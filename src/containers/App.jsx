@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Signin from './Signin';
 import Nav from '../components/Nav';
 import Landing from '../components/Landing';
+import Instructions from '../components/Instructions';
 
 class App extends Component {
 	constructor() {
@@ -24,6 +25,7 @@ class App extends Component {
           <div>
             <h1 className="text-6xl">Hello World</h1>
           </div>
+          <Instructions/>
         </div>
       );
     }
